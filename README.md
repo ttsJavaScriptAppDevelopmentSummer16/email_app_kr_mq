@@ -1,8 +1,8 @@
 # Email Object Project
 
 * Generic Email App
-  * Version
-  * Manufacturer
+  * Version (string)
+  * Manufacturer (string)
   * User Object
   * Mailboxes
     * Inbox - Array of Email Objects
@@ -14,20 +14,21 @@
     * Array of Contact Objects, see Below
 
 * User Object
-  * Email Address
-  * Password
-  * Incoming Server
-  * Outgoing Server
+  * Email Address (string)
+  * Password (hashed string, string for our purposes)
+  * Incoming Server (Object w/ IP and Port)
+  * Outgoing Server (Object w/ IP and Port)
 
 * Email Object
   * Sender Email (string)
   * Recipient (string)
-  * Timestamp (integer? times in JS?)
+  * Timestamp (Date is a data type in JS, w/ methods)
   * Subject (string)
-  * Text (text, longer string types?)
+  * Text (strings are unlimited in JS)
   * Priority (Boolean)
 
 * Contact Object
-  * Name
-  * Email
-  * Phone Number
+  * Name (string)
+  * Email (string)
+  * Name + Email Method (function)
+  * Phone Number (string)
