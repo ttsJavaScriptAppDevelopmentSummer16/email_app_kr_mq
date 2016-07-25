@@ -14,6 +14,7 @@
     * Array of Contact Objects, see Below
 
 * User Object
+  * Name
   * Email Address (string)
   * Password (hashed string, string for our purposes)
   * Incoming Server (Object w/ IP and Port)
