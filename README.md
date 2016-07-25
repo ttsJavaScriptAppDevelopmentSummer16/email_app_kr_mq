@@ -1,14 +1,33 @@
 # Email Object Project
 
-* Gmail
+* Generic Email App
+  * Version
+  * Manufacturer
+  * User Object
   * Mailboxes
-    * Inbox
-    * Sent
-      * Something about when sent
-    * Trash
-    * Archive
-      * Something about the Archive
-      * Something Else about the Archive
+    * Inbox - Array of Email Objects
+    * Sent - Array of Email Objects
+    * Trash - Array of Email Objects
+    * Archive - Array of Email Objects
+    * Drafts - Array of Email Objects
   * Contacts
-  * Messages
-    * Something about Messages
+    * Array of Contact Objects, see Below
+
+* User Object
+  * Email Address
+  * Password
+  * Incoming Server
+  * Outgoing Server
+
+* Email Object
+  * Sender Email (string)
+  * Recipient (string)
+  * Timestamp (integer? times in JS?)
+  * Subject (string)
+  * Text (text, longer string types?)
+  * Priority (Boolean)
+
+* Contact Object
+  * Name
+  * Email
+  * Phone Number
